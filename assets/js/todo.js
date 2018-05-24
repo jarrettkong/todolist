@@ -1,9 +1,9 @@
-var input = $("input");
-var deleteButtons = $(".delete");
-var icon = $("#icon")
+const input = $("input");
+const deleteButtons = $(".delete");
+const icon = $("#icon")
 
-var list = $("#list");
-var todos = $("li");
+const list = $("#list");
+const todos = $("li");
 
 
 icon.on("click", function() {
